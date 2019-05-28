@@ -52,16 +52,16 @@ function shout(string) {
   return string.toUpperCase()
 }
 function whisper(string) {
-  return string.lowercase()
+  return string.toLowercase()
 }
 function logShout(string) {
-  console.log(string.uppercase())
+  console.log(string.toUppercase())
 }
 function logWhisper(string) {
-  console.log(string.lowercase())
+  console.log(string.toLowercase())
 }
 function sayHiToGrandma(string) {
-  if (string === string.lowercase()) {
+  if (string === string.toLowercase()) {
     return "I can't hear you!"
   }
   else {
